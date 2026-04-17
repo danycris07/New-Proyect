@@ -1,0 +1,13 @@
+/* seccion nosotros */
+.sobre-nosotros-container {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+        flex-flow:wrap;
+        text-align: center;
+        gap: 20px;
+    .sobrenosotros-titulo{
+        text-align: center;
+        width: 100%;
+    }
+}
