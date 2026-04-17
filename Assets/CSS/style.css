@@ -1,13 +1,46 @@
 /* seccion nosotros */
-.sobre-nosotros-container {
-    padding: 10px;
-    margin: 10px;
-    display: flex;
-        flex-flow:wrap;
-        text-align: center;
-        gap: 20px;
-    .sobrenosotros-titulo{
-        text-align: center;
-        width: 100%;
-    }
+header{
+    background-color: rgba(223, 32, 47);
+    height: 180px;
 }
+.sobre-nosotros-container {
+    max-width: 1200px;
+        padding: 20px;
+        margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around   ; 
+    gap: 20px;
+    margin-top: 40px;
+}
+    .sobrenosotros-titulo{
+        width: 1500px;
+        text-align: center; 
+        color: white;
+        background-color: rgba(223, 32, 47);
+        border: 1.5px black solid;
+    }
+    .texto-bloque{
+        text-align: center;
+        color: white;
+        background-color: rgba(223, 32, 47);
+        border: 1.5px black solid;
+    }
+    .sobre-nosotros-valores{
+    flex: 1;
+    min-width: 200px;
+    max-width: 1000px;
+    text-align: center;
+        color: white;
+        background-color: rgba(223, 32, 47);
+        border: 1.5px black solid;
+    }
+    .mision-caja {
+    flex: 1;
+    max-width: 1000px;
+    text-align: center;
+        color: white;
+        background-color: rgba(223, 32, 47);
+        border: 1.5px black solid;
+        margin-top: 50px;
+    }
