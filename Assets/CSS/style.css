@@ -1,0 +1,21 @@
+.menu-hamburguesas {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+.menu-hamburguesas div {
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+
+.menu-hamburguesas img {
+  width: 100%;
+  border-radius: 10px;
+}
