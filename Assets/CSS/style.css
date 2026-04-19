@@ -1,21 +1,37 @@
-.menu-hamburguesas {
-  display: flex;
-  justify-content: center;
+.menu-pollos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  flex-wrap: wrap;
 }
 
-
-.menu-hamburguesas div {
-  width: 250px;
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 10px;
-  text-align: center;
-  padding: 10px;
+.menu-carnes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
+.menu-pollos, .menu-carnes, .menu-postres {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-.menu-hamburguesas img {
+.menu-pollos img, .menu-carnes img {
   width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.menu-postres {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.menu-postres img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: contain;
   border-radius: 10px;
 }
