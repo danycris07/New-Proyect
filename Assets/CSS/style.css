@@ -10,28 +10,22 @@
   gap: 20px;
 }
 
-.menu-pollos, .menu-carnes, .menu-postres {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.menu-pollos img, .menu-carnes img {
-  width: 100%;
-  max-height: 150px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
 .menu-postres {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
-.menu-postres img {
+.menu-pollos, .menu-carnes, .menu-postres {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.menu-pollos img, .menu-carnes img, .menu-postres img {
   width: 100%;
-  max-height: 150px;
+  height: 200px;
   object-fit: contain;
   border-radius: 10px;
 }
+
