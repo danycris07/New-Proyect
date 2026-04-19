@@ -9,5 +9,5 @@
 Sitio web informativo acerca de la cadena de comida rapida de mostaza en la provincia de Formosa
 ## Distribución de tareas
 - Jonathan Cristaldo: index.html, su header, footer y su respectivo css
-- Manuel Roman: pagina nosotros, su header y estilos de su pagina
+- Manuel Roman: pagina nosotros, su header, archivo readme y estilos de su pagina
 - Leandro sanabria: pagina menu y su respectivo css
