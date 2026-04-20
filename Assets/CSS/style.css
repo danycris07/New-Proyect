@@ -133,3 +133,51 @@ footer {
 
 
 
+.menu-pollos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.menu-carnes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.menu-postres {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.menu-pollos,
+.menu-carnes,
+.menu-postres {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.menu-pollos img,
+.menu-carnes img,
+.menu-postres img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.fondo2 {
+  background-color: #ffffff;
+  padding: 20px;
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
